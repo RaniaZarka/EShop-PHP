@@ -21,6 +21,7 @@ if(isset($_POST['submit'])){
 
    $checkMail= preg_match ( '/^[a-z\d._-]+@([a-z\d-]+\.)+[a-z]{2,6}$/i' , $email ) ;
    $checkPassword=preg_match ('/^.{6,}$/', $pass);
+
    $checkPhone=preg_match('/^[0-9]{8}$/', $phone );
    
    $select_user = $conn->prepare("SELECT * FROM `users` WHERE email = ?");

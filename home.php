@@ -56,10 +56,6 @@ if(isset($_SESSION['user_id'])){
 
 <script src="js/script.js"></script>
 
-<script>
-
-
-</script>
 
 </body>
 </html>

@@ -10,7 +10,6 @@ if(isset($_SESSION['user_id'])){
    $user_id = '';
 };
 
-
    if(isset($_POST['add_to_cart'])){
 
     if($user_id == ''){
